@@ -5,14 +5,13 @@ function App() {
   return (
     <div className="App">
       <section id="light-blue">
-        <nav id="header">
+        <div id="header">
           <a href="#">
             <img src={logo} alt="" srcset="" />
           </a>
           <div className="tabContainer">
-            <a className="header_tab" href="#">About</a>
-            <a className="header_tab" href="#">Prizes</a>
-            <a className="header_tab" href="#">Schedule</a>
+            <a className="header_tab" href="#about">About</a>
+            <a className="header_tab" href="#schedule">Schedule</a>
             <a className="header_tab" href="#">Speakers</a>
             <a className="header_tab" href="#">Sponsors</a>
             <a className="header_tab" href="#">Enemies</a>
@@ -20,7 +19,7 @@ function App() {
             <a className="header_tab" href="#">Concert</a>
             <a className="header_tab" href="#">FAQ</a>
           </div>
-        </nav>
+        </div>
         <div id="namer">
           <div id="nameContainer">
             <h1 id="metu">METU</h1>
@@ -44,6 +43,147 @@ function App() {
             Quo obcaecati fugit numquam aliquam cum corrupti placeat sit assumenda voluptas ut voluptatem voluptatibus? Ab repellat tempore hic minima excepturi cum laboriosam reiciendis 33 distinctio eius.
             Qui error vitae ab nostrum repellendus et sint modi ea architecto quisquam qui ullam earum! Et animi beatae est nisi dolorem et quia impedit in accusantium sunt qui tempora similique et minus nostrum et similique distinctio.
           </p>
+        </div>
+      </section>
+      <section id="schedule">
+        <div className="scheduleSection"> 
+          <h2 className="scheduleHeader">Schedule</h2>
+          <div className="dayHeader">
+            <div className="daydate">11 June</div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
+          <div className="dayHeader">
+            <div className="daydate">12 June</div>
+          </div>
+          <div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div><div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div><div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div><div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div><div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div><div className="timer">
+            <div className="agenda">
+              <div className="time">09.00 CEST</div>
+              <div className="relative">
+                <div className="agendaName">Hakan Yalçınsoy</div>
+                <div className="agendaExplanation">Future of Money</div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
