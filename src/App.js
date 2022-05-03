@@ -1,6 +1,5 @@
 //import Header from "./components/Header/Header";
 import logo from "./images/logo.png";
-import orangewave from "./images/orangewave.png";
 
 function App() {
   return (
