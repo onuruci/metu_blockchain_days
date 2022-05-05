@@ -1,5 +1,5 @@
 //import Header from "./components/Header/Header";
-import logo from "./images/logo.png";
+import logo from "./images/metublockchain.png";
 import hakanyal from "./images/hakan_yal.jpg";
 import emingun from "./images/emin_gun.jpg";
 import efebulduk from "./images/efebulduk.jpg";
@@ -9,14 +9,16 @@ function App() {
     <div className="App">
       <section id="light-blue">
         <div id="header">
-          <a href="#">
-            <img src={logo} alt="" srcset="" />
-          </a>
-          <div className="tabContainer">
+        <div className="tabContainer">
             <a className="header_tab" href="#about">About</a>
             <a className="header_tab" href="#schedule">Schedule</a>
             <a className="header_tab" href="#speakers">Speakers</a>
             <a className="header_tab" href="#enemies">Enemies</a>
+          </div>
+          <a href="#">
+            <img src={logo} alt="" srcset="" className="logo"/>
+          </a>
+          <div className="tabContainer">
             <a className="header_tab" href="#">Sponsors</a>
             <a className="header_tab" href="#">Venue</a>
             <a className="header_tab" href="#">Concert</a>

@@ -41,6 +41,12 @@ code {
 
 }
 
+@media only screen and (max-width: 1260px) {
+  #light-blue{
+    height: 580px;
+  }
+}
+
 #header {
   display: flex;
   width: 100%;
@@ -68,11 +74,24 @@ code {
   tab-size: 4;
   align-items: center;
   font-family: 'Outfit';
+  margin: auto;
+  width: 410px;
 }
 
 @media only screen and (max-width: 1260px) {
   .tabContainer {
     display: none;
+  }
+}
+
+.logo{
+  max-height: 4rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1260px) {
+  .logo{
+    max-height: 5rem;
   }
 }
 
@@ -97,6 +116,7 @@ code {
   display: block;
   margin-bottom: -1rem;
   margin-top: 5rem;
+  opacity: 70%;
 }
 
 #blockchain {
