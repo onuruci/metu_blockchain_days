@@ -148,15 +148,17 @@ code {
 }
 
 .applyButton {
-  width: auto;
+  width: 18rem;
   background-color: #00ADB5;
-  padding: 1.5rem;
-  border-radius: 5%;
+  padding: 1rem;
+  border-radius: 0.5rem;
   font-size: 1.5rem;
   font-family: 'Outfit';
   border-width: 0;
   color: rgb(255 255 255);
   cursor: pointer;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 #about {
