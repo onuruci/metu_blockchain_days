@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/metu_blockchain_days/static/css/main.7ef9c99a.css",
-    "main.js": "/metu_blockchain_days/static/js/main.5747abfc.js",
+    "main.css": "/metu_blockchain_days/static/css/main.481c4b18.css",
+    "main.js": "/metu_blockchain_days/static/js/main.7d78dce7.js",
     "static/js/787.f8cba09a.chunk.js": "/metu_blockchain_days/static/js/787.f8cba09a.chunk.js",
     "static/media/emin_gun.jpg": "/metu_blockchain_days/static/media/emin_gun.66b5571a67823fc37c08.jpg",
     "static/media/hakan_yal.jpg": "/metu_blockchain_days/static/media/hakan_yal.d253e59fec62448900f7.jpg",
     "static/media/efebulduk.jpg": "/metu_blockchain_days/static/media/efebulduk.9dd18ab9b689ec69955d.jpg",
     "index.html": "/metu_blockchain_days/index.html",
-    "main.7ef9c99a.css.map": "/metu_blockchain_days/static/css/main.7ef9c99a.css.map",
-    "main.5747abfc.js.map": "/metu_blockchain_days/static/js/main.5747abfc.js.map",
+    "main.481c4b18.css.map": "/metu_blockchain_days/static/css/main.481c4b18.css.map",
+    "main.7d78dce7.js.map": "/metu_blockchain_days/static/js/main.7d78dce7.js.map",
     "787.f8cba09a.chunk.js.map": "/metu_blockchain_days/static/js/787.f8cba09a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ef9c99a.css",
-    "static/js/main.5747abfc.js"
+    "static/css/main.481c4b18.css",
+    "static/js/main.7d78dce7.js"
   ]
 }
