@@ -1,5 +1,8 @@
 //import Header from "./components/Header/Header";
 import logo from "./images/logo.png";
+import hakanyal from "./images/hakan_yal.jpg";
+import emingun from "./images/emin_gun.jpg";
+import efebulduk from "./images/efebulduk.jpg";
 
 function App() {
   return (
@@ -12,9 +15,9 @@ function App() {
           <div className="tabContainer">
             <a className="header_tab" href="#about">About</a>
             <a className="header_tab" href="#schedule">Schedule</a>
-            <a className="header_tab" href="#">Speakers</a>
+            <a className="header_tab" href="#speakers">Speakers</a>
+            <a className="header_tab" href="#enemies">Enemies</a>
             <a className="header_tab" href="#">Sponsors</a>
-            <a className="header_tab" href="#">Enemies</a>
             <a className="header_tab" href="#">Venue</a>
             <a className="header_tab" href="#">Concert</a>
             <a className="header_tab" href="#">FAQ</a>
@@ -23,7 +26,7 @@ function App() {
         <div id="namer">
           <div id="nameContainer">
             <h1 id="metu">METU</h1>
-            <h1 id="blockchain">Blockchain Days</h1>
+            <h1 id="blockchain">Blockchain Dayz</h1>
           </div>
         </div>
         <div id="dateapply">
@@ -183,6 +186,75 @@ function App() {
                 <div className="agendaExplanation">Future of Money</div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="speakers">
+        <div className="speakersDiv">
+          <h2 className="scheduleHeader">Speakers</h2>
+          <div className="speakersContainer">
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={emingun} alt="" srcset="" />
+              <div className="speakerName">Emin Gün Sirer</div>
+              <div className="speakerCompany">Ava Labs</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+            <a href="#" className="singleSpeaker">
+              <img className="speakerImg" src={hakanyal} alt="" srcset="" />
+              <div className="speakerName">Hakan Yalçınsoy</div>
+              <div className="speakerCompany">Lyteria</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="enemies">
+        <div className="speakersDiv">
+          <h2 className="scheduleHeader">Enemies</h2>
+          <div className="speakersContainer">
+            <a href="#" className="singleSpeaker">
+              <img className="enemyImg" src={efebulduk} alt="" srcset="" />
+              <div className="speakerName">Efe Bulduk</div>
+              <div className="speakerCompany">Binance Influencer of the Year in Europe '21</div>
+            </a>
           </div>
         </div>
       </section>
